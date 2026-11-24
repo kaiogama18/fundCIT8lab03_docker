@@ -22,7 +22,8 @@ jobs:
         with:
           context: ./
           push: true
-          tags: moisesgc/webacademy:latest
+          #dockerfile: ./Dockerfile # Specify the path to your Dockerfile
+          tags: kaiogama/webacademy:latest
   deploy:
     runs-on: ubuntu-latest
     steps:
